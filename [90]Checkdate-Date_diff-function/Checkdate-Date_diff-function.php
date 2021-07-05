@@ -38,6 +38,16 @@ print_r($mix);
 echo "</pre>";
 
 
+$date1=date_create("1999-03-24");
+$date2=date_create("2021-07-5");
+
+$mix=date_diff($date1,$date2);
+
+echo "<pre>";
+print_r($mix);
+echo "</pre>";
+
+
 
 
 
