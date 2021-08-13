@@ -89,4 +89,12 @@ if($a <= $b){
 }else{
     echo "a is big";
 }
+
+$a=50;
+$b=90;
+if($a<$b){
+    echo "b is greater";
+}else {
+    echo "a is greater";
+}
 ?>
